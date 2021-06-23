@@ -1,6 +1,6 @@
 resource_name = "akhi"
 
-resource_location = "eastus"
+resource_location = "westus"
 
 app_service_plan_name = "akhiappserviceplan"
 
