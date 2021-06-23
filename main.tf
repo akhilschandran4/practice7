@@ -1,6 +1,6 @@
 terraform {
 backend "azurerm" {
-    resource_group_name = "akhi-rg"
+    resource_group_name = "akhiresource"
     storage_account_name = "akhistorage"
     container_name       = "akhicontainer"
 	}
