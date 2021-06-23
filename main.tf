@@ -1,5 +1,5 @@
 terraform {
-  required_version = "= 2.13.0" 
+  required_version = "=2.13.0" 
  backend "azurerm" {
   //   storage_account_name = "akhistorage"
   //   container_name       = "akhicontainer"
