@@ -1,5 +1,5 @@
 terraform {
-  version = "=2.13.0" 
+  
  backend "azurerm" {
   //   storage_account_name = "akhistorage"
   //   container_name       = "akhicontainer"
@@ -9,6 +9,7 @@ terraform {
 	}
 }
 provider "azurerm" {
+    version = "=2.13.0" 
   # subscription_id             = "3457d5d0-1535-40c6-85fb-cb1919104698"
   # client_id                   = "ac2f1e9d-1c78-4921-82ab-b145bb6bfc50"
   # client_certificate_password = "0lY29KJJIAujfH56fkjy6o9C3_JfBubUFM"
